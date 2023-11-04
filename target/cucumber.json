@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can not send massage from contact page",
+        "description": "",
+        "id": "this-is-a-feature-for-contact-page-functionality;verify-user-can-not-send-massage-from-contact-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5388742500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open \u003c\"URL\"\u003e do",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 7
+                }
+              ],
+              "location": "Doll_home.open_do(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2116853100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify contact display in header",
+            "match": {
+              "location": "Doll_Contact.verify_contact_display_in_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2333123000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on contact link",
+            "match": {
+              "location": "Doll_Contact.click_on_contact_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2053112600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify contact page display",
+            "match": {
+              "location": "Doll_Contact.verify_contact_page_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10514789000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "scroll down and enter name invalid email and massage",
+            "match": {
+              "location": "Doll_Contact.scroll_down_and_enter_name_invalid_email_and_massage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 100535700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on send button",
+            "match": {
+              "location": "Doll_Contact.click_on_send_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "This is a feature for contact page functionality",
+    "description": "",
+    "id": "this-is-a-feature-for-contact-page-functionality",
+    "keyword": "Feature",
+    "uri": "Doll_Contact.feature"
+  }
+]
